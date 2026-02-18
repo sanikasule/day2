@@ -44,7 +44,7 @@ function FilterControls({filterBy, setFilterBy, filterValue, setFilterValue}) {
 
       {/* Volume Input */}
       {filterBy === "volume" && (
-        <input type="number" min={100} value={filterValue} onChange={(e) => setFilterValue(e.target.value)}/>
+        <input type="number" placeholder='20000' min={20000} value={filterValue} onChange={(e) => setFilterValue(e.target.value)}/>
       )}
     </div>
   );
