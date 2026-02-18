@@ -41,7 +41,7 @@ const StocksList = ({ data }) => {
                 <td>{row.High}</td>
                 <td>{row.Low}</td>
                 <td>{row.Close}</td>
-                <td>{row.AdjClose}</td>
+                <td>{row.AdjCLose}</td>
                 <td>{row.Volume}</td>
               </tr>
             ))}
